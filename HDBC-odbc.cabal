@@ -72,25 +72,9 @@ executable runtests
   buildable: True
   build-depends:
       base
-    , HUnit
     , HDBC
     , HDBC-odbc
-    , QuickCheck
-    , testpack
-    , containers
-    , old-time
-    , time
-    , old-locale
-    , convertible
-  main-is: runtests.hs
-  other-modules:
-      SpecificDB
-    , SpecificDBTests
-    , TestMisc
-    , TestSbasics
-    , TestUtils
-    , Testbasics
-    , Tests
+  main-is: showCrash.hs
   hs-source-dirs: testsrc
   ghc-options: -O2
   extensions:
